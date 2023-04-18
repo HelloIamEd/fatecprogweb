@@ -1,0 +1,93 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{padding: 0;
+ margin: 0;}
+
+ form{
+    margin-left: 10px;
+    width: 150%;
+ }
+.header{
+   background-color: #E2322B;
+   padding: auto;
+   
+}
+.titulo{
+    color: white;
+    margin-left: 5px;
+    font-family: "Grenze Gotisch", "Arial";
+    
+    font-size: 50px;
+    
+}
+.perfil{
+    border-radius: 50%;    
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.sobre{
+    position: fixed;
+    bottom: 619px;
+    right: 0px;
+    width: 100px;
+}
+.contato{
+    position: fixed;
+    bottom: 619px;
+    right: 105px;
+    width: 100px;
+}
+.inicio{
+    position: fixed;
+    bottom: 619px;
+    right: 210px;
+    width: 100px;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select,
+textarea{
+    padding: 16px;
+    border: 2px solid #E2322B;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+form{
+    font-size: 15px;
+}
+.cadastro{
+    padding: 0;
+    margin: 0;
+    background-color: #E6E6E6;
+
+}
+.tabela{
+    padding: 0;
+    font-family: "Bebas neue", "Arial";
+    margin: 0;
+    background-color: #E6E6E6;
+
+}
+input[type="submit"] {
+    background-color: red;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+input[type="reset"] {
+    background-color: white;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
